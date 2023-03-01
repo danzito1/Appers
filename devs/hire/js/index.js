@@ -1,10 +1,10 @@
 window.onload = function() {
-    var Lang = navigator.language;
-    Lang = Lang.split("-")[0];
+    var lang = navigator.language;
+    lang = lang.split("-")[0];
     
-    if (Lang === "pt") {
+    if (lang === "pt") {
         document.title = "Contrate-nos";
-    } else if (Lang === "es") {
+    } else if (lang === "es") {
         document.title = "Contratanos";
     }
 }
