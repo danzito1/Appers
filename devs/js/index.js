@@ -38,4 +38,8 @@ window.onload = function() {
 	r3h1.innerHTML = res3;
 	r2h1.innerHTML = res2;
 	r1h1.innerHTML = res1;
+
+        hire.addEventListener("click", function() {
+            window.location.replace("https://danzito1.github.io/Appers/devs/hire");
+        });
 }
